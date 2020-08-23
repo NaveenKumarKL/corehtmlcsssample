@@ -1,0 +1,615 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* header */
+    
+    header {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .nav_left {
+        float: left;
+        padding: 10px;
+    }
+    
+    .nav_right {
+        float: right;
+    }
+    
+    .overleft {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .iconblock {
+        margin: 0px 50px;
+    }
+    
+    .iconback {
+        width: 50px;
+        height: 50px;
+        background-color: #c7b198;
+        border-radius: 50%;
+        float: left;
+        margin: 15px 2px;
+        display: flex;
+    }
+    
+    .iconback:hover {
+        background-color: grey;
+        transition: 40ms;
+    }
+    
+    .iconback a {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        align-content: center;
+        text-decoration: none;
+    }
+    
+    .menublock {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        display: flex;
+        align-content: center;
+        margin: auto 0px;
+    }
+    
+    .menu {
+        color: #c7b198;
+        margin: auto 5px;
+    }
+    
+    .menublock h6 {
+        font-size: 20px;
+        margin: auto 5px;
+        color: grey;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+    }
+    
+    .menuiconover {
+        display: block;
+        margin: auto 0px;
+    }
+    
+    .menuicon {
+        width: 35px;
+        height: 3px;
+        background-color: grey;
+        margin: 5px 0;
+    }
+    /* banner */
+    
+    .banner {
+        clear: both;
+        height: 85vh;
+        background-color: #cccccc;
+        color: white;
+        display: flex;
+    }
+    
+    .bannerheading {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .bannerheading h1 {
+        font-size: 34px;
+        font-weight: 400;
+    }
+    
+    .bannerheading p {
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+    
+    .bannerglobe {
+        padding: 15px 30px;
+        background-color: #c7b198;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-right: 1px;
+    }
+    
+    .bannerexplore {
+        padding: 15px 40px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    .bannerglobe:hover {
+        padding: 15px 30px;
+        background-color: grey;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-right: 1px;
+        transition: 40ms;
+    }
+    
+    .bannerexplore:hover {
+        padding: 15px 40px;
+        background-color: grey;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-right: 1px;
+        transition: 40ms;
+    }
+    /* event */
+    
+    .event {
+        margin-top: -22px;
+        height: 100vh;
+        max-width: 100%;
+        background: url(./image/event.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .eventleft {
+        background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #d0ccc2), linear-gradient(to bottom, rgba(255, 0, 0, 0), #d0ccc2), linear-gradient(to left, rgba(255, 0, 0, 0), #bbbdb4);
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .eventlefto {
+        height: 200px;
+    }
+    
+    .eventlefto h3 {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        align-content: center;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .eventlefto p {
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .eventlefto a {
+        padding: 15px 30px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        margin-right: 1px;
+    }
+    
+    .eventicon:hover {
+        padding: 15px 30px;
+        background-color: grey;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-right: 1px;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .eventlefto {
+            margin-top: -100px;
+            margin-left: 10px;
+        }
+    }
+    /* company */
+    
+    .company {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .companyheader {
+        text-align: center;
+    }
+    
+    .companyheader h2 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
+    .companyheader P {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        color: pink;
+    }
+    
+    .companycontent {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    
+    .companyleft {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .companyleftline {
+        display: flex;
+    }
+    
+    .companyleft1 {
+        width: 80%;
+        margin-right: 20px;
+    }
+    
+    .companyleft1 h2 {
+        text-align: right;
+        width: 80%;
+        float: right;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .companyleft1 p {
+        margin-top: -1px;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+        width: 75%;
+        float: right;
+        color: #e9a3a6;
+    }
+    
+    .companyleft2 {
+        width: 20%;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .imageback {
+        width: 100px;
+        height: 100px;
+        background: pink;
+        border-radius: 50%;
+        margin: auto;
+    }
+    
+    .companyrightover {
+        display: flex;
+    }
+    
+    .companyright {
+        width: 50%;
+    }
+    
+    .companyright1 {
+        width: 20%;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .companyright2 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    .companyright2 p {
+        margin-top: -1px;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+        width: 75%;
+        float: left;
+        color: #e9a3a6;
+    }
+    
+    .companyright2 h2 {
+        text-align: left;
+        float: left;
+        width: 75%;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .companycontent {
+            display: block;
+        }
+        .companyleft {
+            width: 100%;
+            margin-right: 50px;
+        }
+        .companyright {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    /* inspirational */
+    
+    .inspirational {
+        background: url(./image/nature.jpg);
+        height: 100%;
+        max-width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .inspireheader {
+        max-width: 1200px;
+        margin: auto;
+        color: white;
+        padding-top: 100px;
+    }
+    
+    .inspireheader h1 {
+        font-size: 36px;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    .cardrow {
+        max-width: 1200px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card1inspire {
+        width: 33.3%;
+        text-align: center;
+        margin: 0px 20px;
+        margin-bottom: 100px;
+    }
+    
+    .card1inspire i {
+        font-weight: 100;
+        font-size: 150px;
+        background: transparent;
+        color: grey;
+    }
+    
+    .card1inspire p {
+        padding-top: 30px;
+        color: grey;
+        width: 90%;
+        margin: auto;
+        line-height: 2;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .card1inspire h2 {
+        padding-top: 20px;
+        color: grey;
+        width: 50%;
+        margin: auto;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .card1inspire:hover i {
+        color: white;
+    }
+    
+    .card1inspire:hover p {
+        color: white;
+    }
+    
+    .card1inspire:hover h2 {
+        color: white;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .cardrow {
+            display: block;
+            margin: auto;
+        }
+        .card1inspire {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    /* blog */
+    
+    .blog {
+        height: 100%;
+        background: #f8f9fb;
+    }
+    
+    .blogheader {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .blogheader h2 {
+        font-size: 42px;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .blogheader p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        font-style: italic;
+        color: #cdbba7;
+    }
+    
+    .cardrowblog {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .card {
+        width: 33%;
+        margin: auto 10px;
+        height: 100%;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .cardrightdiv {
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    
+    .cardleftdev {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: #ebe2d9;
+    }
+    
+    .cardleftdev p {
+        color: #c8b7a5;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .cardleftdev h2 {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+        color: #b69874;
+    }
+    
+    .cardrightdiv h4 {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+        color: #999999;
+    }
+    
+    .cardrightdiv p {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+        color: #999999;
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .cardrowblog {
+            display: block;
+        }
+        .card {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    }
+    /* footer */
+    
+    .footer {
+        height: 100%;
+        background: #171717;
+    }
+    
+    .footerheader {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .footerheader h1 {
+        padding-top: 100px;
+        font-size: 44px;
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    
+    input[type=text] {
+        padding: 20px 100px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #b69874;
+        border-radius: 4px;
+    }
+    
+    .footerheader a {
+        padding: 18px 30px;
+        background: #b69874;
+        text-decoration: none;
+        color: white;
+        margin-left: -4px;
+        margin-top: 2px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        border-radius: 1px;
+    }
+    
+    .subcribe:hover {
+        padding: 18px 30px;
+        background: #a7a7a7;
+        text-decoration: none;
+        color: white;
+        margin-left: -4px;
+        margin-top: 2px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Noto Sans', sans-serif;
+        border-radius: 1px;
+    }
+    
+    .formtext {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .lastfooter {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .lastitem {
+        padding: 10px;
+        color: white;
+    }
+    
+    @media only screen and (max-width: 419px) {
+        .subcribe {
+            padding-top: 9px;
+        }
+        .iconblock {
+            display: none;
+        }
+        .menublock {
+            margin-top: 25px;
+        }
+    }
